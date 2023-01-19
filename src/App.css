@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?familiy=VT323");
 .App {
   text-align: center;
-  font-family: "Press Start 2P","VT323";
+  font-family: "MontserratLightAlt1","VT323";
   color:white;
 }
 
@@ -31,7 +31,7 @@ body{
   left:0;
   right:0;
   bottom:0;
-  background-image: url("./assets/background/parallax-bg.gif");
+  background-image: url("./assets/background/darkforest.b38037101fe5911011a4.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   background-attachment: fixed;

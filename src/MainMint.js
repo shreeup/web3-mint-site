@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {ethers,BigNumber} from 'ethers';
 import {Box,Button,Flex,Input,Text} from '@chakra-ui/react';
 import roboPunksNFT from './RoboPunksNFT.json';
+import MetaD from "./assets/social-media-icons/3MetaD_Verylarge.png";
 
 const roboPunksNFTAddress="0x1ff8030705dB05DcDEbEA2BF0f8CDAd1966A71C6";
 const MainMint=({accounts,setAccounts})=>{
@@ -40,6 +41,7 @@ const MainMint=({accounts,setAccounts})=>{
                 <Flex justify="center" align="center" height="100vh" paddingBottom="150px">
                 <Box width="520px">
                <div>
+                <center><img src={MetaD} style={{width:"250px"}}alt="3MetaD"/></center>
                 <Text fontSize="48px" textshadow="0 5px #000000">NFT Minting Site</Text>
                 <Text fontSize="30px" letterSpacing="-5.5%"
                 fontFamily="VT323" textShadow="0 2px 2px #000000" >You can use this tool to mint NFT coins.</Text>
@@ -49,7 +51,7 @@ const MainMint=({accounts,setAccounts})=>{
                         <div>
                             <Flex align="center" justify="center">
                                 <Button
-                                backgroundColor="#D6517D"
+                                backgroundColor="#18C619"
                                 borderRadius="5px"
                                 boxShadow="0px 2px 2px 1px #0F0F0F"
                                 color="white"
@@ -60,7 +62,7 @@ const MainMint=({accounts,setAccounts})=>{
                                 cursor="pointer" fontFamily="inherit" paddingLeft="19px" marginTop="10px"
                                 type="number" value={mintAmount}/>
                                 <Button
-                                backgroundColor="#D6517D"
+                                backgroundColor="#18C619"
                                 borderRadius="5px"
                                 boxShadow="0px 2px 2px 1px #0F0F0F"
                                 color="white"
@@ -69,7 +71,7 @@ const MainMint=({accounts,setAccounts})=>{
 
                             </Flex>
                             <Button
-                                backgroundColor="#D6517D"
+                                backgroundColor="#18C619"
                                 borderRadius="5px"
                                 boxShadow="0px 2px 2px 1px #0F0F0F"
                                 color="white"
